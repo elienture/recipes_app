@@ -10,6 +10,9 @@ https://github.com/elienture/recipes_app
 npm run build
 ```
 
+## Deploy
+https://elienture.github.io/recipes_app/
+
 ## Tools
 - API
 - HTML5
