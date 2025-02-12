@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodFind</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src=<%=require("./images/foodFind__logo.png")%> alt="Logo"
+      class="header__logo">
+    </header>
+    <div id="search-form">
+      <input type="text" id="query" placeholder="Search for recipes..." />
+      <button id="search-button">
+        <img src=<%=require("./images/search_icon.png")%> alt="Search"
+        class="search_icon">
+      </button>
+    </div>
+    <div id="results"></div>
+    <div id="recipe-details">
+      <span>
+        <button id="close-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="35"
+            viewBox="0 0 24 24"
+            fill="#ec0101"
+            stroke="#ec0101"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-x"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M18 6l-12 12" />
+            <path d="M6 6l12 12" />
+          </svg>
+        </button>
+      </span>
+      <div id="recipe-content"></div>
+    </div>
+  </body>
+</html>

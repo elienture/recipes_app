@@ -1,0 +1,134 @@
+@import url("../fonts/fonts.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  align-items: center;
+  font-family: ConcertOne, sans-serif;
+  margin: 20px;
+  color: whitesmoke;
+  background: repeating-conic-gradient(#000 0% 25%, #fff 0% 50%) 50% / 100px
+    100px;
+}
+
+.header__logo {
+  width: 500px;
+  object-fit: contain;
+}
+
+#search-form {
+  display: flex;
+  outline: none;
+  height: 50px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border-radius: 35px;
+}
+
+#search-form {
+  display: flex;
+}
+
+#search-form button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+#search-form input {
+  color: #000;
+  font-size: 25px;
+  height: 50px;
+  width: 350px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding-left: 25px;
+  background: white;
+  box-shadow: 0px 0px 50px 15px #ff0000;
+}
+
+.search_icon {
+  width: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0px 0px 50px 15px #ff0000;
+}
+
+#results {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.recipe-item {
+  padding: 10px;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #ec0101;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.recipe-item:hover {
+  box-shadow: 0px 0px 50px 15px #fffc41;
+}
+
+.recipe-item img {
+  max-width: 100%;
+  height: auto;
+}
+.recipe-item a {
+  color: #ec0101;
+}
+
+#recipe-details {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  padding: 0 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 60vw;
+  background: white;
+  border: 2px solid black;
+}
+
+#recipe-content {
+  font-size: 24px;
+  color: #ec0101;
+  height: 70vh;
+  overflow-y: auto;
+  text-align: center;
+}
+
+#recipe-content img {
+  width: 450px;
+  height: 350px;
+  object-fit: contain;
+  margin: 0;
+}
+
+#recipe-content p,
+#recipe-content li {
+  text-align: left;
+}
+
+#close-button {
+  display: flex;
+  justify-self: flex-end;
+  padding: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
