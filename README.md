@@ -1,33 +1,46 @@
-# FoodFind (pet-project)
+# Recipes App
 
-The project is an interactive webpage for searching recipes based on ingredients. The user can select the ingredients they have and the application will display recipes with images, ingredients and instructions.
+### A recipe app for finding meals using a specific ingredient.
 
-## Repository
-https://github.com/elienture/recipes_app
+## About The Project
+The project is an interactive webpage for searching recipes which used a specific ingredient. The user can select an ingerdient of their choice and the application will display recipes with images, ingredients and instructions.
 
-## Build
-```
-npm run build
-```
+Purpose of this project:
+- Practice core principles of JS
+- Implement the use of API
+- Learn and apply npm packet manager to download code libraries and modules 
+- Deploy an interactive webpage to recieve the user's feedback without having to install the project
 
 ## Deploy
 https://elienture.github.io/recipes_app/
 
-## Tools
-- API
-- HTML5
-- CSS
-- JavaScript
-- Webpack 
+## Technologies & Tools Used
 
-## Sources
-[Icons](https://tabler.io/icons)
-[Logo](https://cooltext.com/)
-[Spoonacular API](https://spoonacular.com/food-api)
-[API tutorial](https://www.youtube.com/watch?v=J6pKVOV_PkM)
+- **HTML, CSS**
+- **Language:** JavaScript
+- **Package Manager:** npm 
+- **Module bundler:** Webpack
+- **API:** [Spoonacular API](https://spoonacular.com/food-api)
+- **Icon sources:**
+1. [Icons](https://tabler.io/icons)
+2. [Logo](https://cooltext.com/)
 
-## Author
-elienture
+## Build & Run
+Build:
+```
+npm run build
+```
+
+Run:
+```
+npm run dev
+```
+
+## Contact
 Elizaveta N.
-[github link](https://github.com/elienture)
 
+[Github](https://github.com/elienture)
+
+Telegram: @naueli
+
+Email: elienture@yandex.ru
